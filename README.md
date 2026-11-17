@@ -76,13 +76,13 @@ Personal_Assistant/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Hemant406/personal-assistance-using-n8n.git
 ```
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd AI-Personal-Assistant
+cd Personal_Assistant
 ```
 
 ### 3. Create a Virtual Environment
