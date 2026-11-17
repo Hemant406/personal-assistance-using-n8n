@@ -42,7 +42,7 @@ if user_message:
     
     # send the user message to the n8n webhook
     response = requests.post(
-        "http://localhost:5678/webhook/972c69ba-120f-454f-acda-ee52000e4b41",  # replace with your n8n webhook URL
+        st.secrets["N8N_WEBHOOK_URL"],
         json={"message": user_message}
     )
     
